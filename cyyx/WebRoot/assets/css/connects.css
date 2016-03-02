@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+body{background-color:#000;}
+.connect-head{padding:10px;background-color:#6F7C86;}
+.connect-head form{margin-bottom:0;}
+.connect-head .form-group{display: -moz-box;display: -webkit-box;margin-bottom: 0;}
+.connect-head .form-group .form-control{display: block;-moz-box-flex: 1;-webkit-box-flex: 1;margin-right: 10px;margin-bottom:0;}
+.connect-head .form-group .search-btn{width: 34px;height: 34px;display: inline-block;text-align: center;line-height: 34px;color:#252827; background-image: -webkit-linear-gradient(top, #DFE0E3 0%, #C7C7C7 50%, #A1A5A8 100%);
+  background-image: -moz-linear-gradient(top, #DFE0E3 0%, #C7C7C7 50%, #A1A5A8 100%);box-shadow: 0 0 3px #63696D;-webkit-box-shadow: 0 0 3px #63696D;border-radius: 4px;font-size: 40px;}
+.connect-head .form-group a:hover{text-decoration: none;}
+.connect-body{position: relative;padding-right: 25px;}
+.connec-body-left{position: relative;}
+.connec-body-left .owner{position: absolute;top: 0; left: 0;right: 0;background: #2A2F35;line-height: 30px;color: #717F8A;font-family: "微软雅黑";padding-left: 10px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;}
+.connec-body-right{position: fixed;right: 0;top: 54px;bottom:0;width: 25px;background-color: #191919;border-left: 1px solid #4B5257;}
+.connect-list{padding-top: 30px;}
+.connect-list-item .mark{height: 25px;background-image: -webkit-linear-gradient(top, #323D44 0%, #273840 50%, #25343C 100%);border-top: 1px solid #282C33;border-bottom: 1px solid #282C33;}
+.connect-list-item .mark a{display: block;color: #BCC9CD;padding-left: 10px;}
+.connect-list-item .mark a:hover{text-decoration: none;}
+.conlists ul li{position: relative;border-bottom: 1px solid #232323;padding: 8px;}
+.conlists ul li:last-child{border-bottom: none;}
+.conlists ul li .con-pic{position: absolute;left: 8px;top: 8px;}
+.conlists ul li .con-info{height: 48px;padding-left: 58px;}
+.conlists ul li .con-name{color: #C4C4C4;font-size: 16px;line-height:28px;}
+.conlists ul li .con-tel{color: #555;font-size: 12px;line-height:20px;}
+.conlists ul li .call{display:inline-block;position:absolute;right:10px;top:17px;width:30px;height:30px;background:url(../images/tel.png) center center no-repeat;background-size:100%;}
+.conlists ul li .call2 {
+display: inline-block;
+position: absolute;
+right: 60px;
+top: 17px;
+width: 30px;
+height: 30px;
+background: url(../images/add.png) center center no-repeat;
+background-size: 100%;
+}
+.connec-body-right ul li a{display: block;border-bottom: 1px solid #212325;text-align: center;color: #485252;}
+.connec-body-right ul li a:hover{text-decoration: none;}
+

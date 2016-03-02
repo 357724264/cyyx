@@ -1,0 +1,11 @@
+user 用户管理
+order 订单管理
+product 商品管理
+activity 活动管理
+point 积分管理
+withdraw 体现管理
+wechatnotify 微信通知设置
+mpconfig 微信公众号设置
+webconfig 网站设置
+
+,user,order,product,activity,point,withdraw,wechatnotify,mpconfig,webconfig,

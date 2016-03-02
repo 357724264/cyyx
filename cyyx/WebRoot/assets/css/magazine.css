@@ -1,0 +1,18 @@
+#elenjoy_px .tab{ display:-moz-box;display:-webkit-box;display:box;line-height:35px;margin-bottom:7px;}
+#elenjoy_px .tab a{display:block;-moz-box-flex:1;-webkit-box-flex:1;box-flex:1;}
+#elenjoy_px .tab a span{display:block;text-align:center;cursor:pointer;vertical-align: middle;background-color: #FAFAFA;color: gray;font-weight: 700;text-align: center;text-decoration: none;background-image: -webkit-gradient(linear,top left,bottom left,from(rgba(0,0,0,0)),to(rgba(0,0,0,.05)));background-image: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.05));background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.05));box-shadow: 0 0 0 1px rgba(0,0,0,.08) inset;box-sizing: border-box;transition: opacity .25s ease,background-color .25s ease,color .25s ease,background .25s ease,box-shadow .25s ease;}
+#elenjoy_px .tab a span.selected{background-color: #EAEAEA;background-image: none;-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.05) inset!important;box-shadow: 0 0 0 1px rgba(0,0,0,.05) inset!important;color: rgba(0,0,0,.7);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

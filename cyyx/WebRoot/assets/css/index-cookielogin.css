@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span,ul,dl,dd,span,p,h4,h1,h2,h3,h4,h5,b{margin:0;padding:0;border:0;font-size:62.5%;font:inherit;vertical-align:baseline; display:block; font-family: "微软雅黑";}
+
+/*login*/
+.layout{width:100%; height:100%; margin:0px auto;}
+.layout .login{width:100%; height:100%; position:relative; overflow:hidden; padding-top:30px;}
+.layout .login .zn_content{width:100%; min-width:320px; text-align:center;}
+.layout .login .zn_content .zn_login_title{font-size:18px; font-weight:700;}
+.layout .login .zn_content .zn_form_container{text-align:left; position:absolute; box-sizing:border-box;}
+@media (max-width:1400px){
+	.zn_form_container{
+		max-width:400px;
+		min-width:320px;
+		margin:0px auto;
+		padding:15px;
+		margin-top:15px;
+		box-sizing:border-box;
+	}
+}
+.layout .login .zn_content .zn_form_container .shake_area{position:relative;}
+.shake_area .enter_area{position:relative;}
+.custom_hide{display:none !important;}
+.enter_area .enter_item{width:100%; height:46px; line-height:46px; box-sizing:border-box; outline:none; text-indent:15px; -webkit-appearance:none; -moz-appearance:none; appearance: none; border:1px solid #d3d3d3;}
+.enter_area .enter_item.first_enter_item{border-radius:16px 16px 0px 0px;}
+.enter_area .enter_item.last_enter_item{border-radius:0px 0px 16px 16px;}
+.enter_area .required{border: solid 1px #f00;}
+
+.error_tip{display:none; width:300px; background:#fff; height:18px; list-style:16px; position:absolute; top:12px; left:10px;}
+.error_tip .error_ico{display: inline-block; zoom: 1; width: 18px; height: 18px; vertical-align: middle; background:url(../images/error_ico.png) no-repeat;}
+.error_tip .error_msg{display: inline-block; color: #ff7448; vertical-align: middle; font-size: 14px;}
+
+.btninfo{width:100%; height:44px; margin-top:20px; background:#3ec234; outline:none; cursor:pointer; font-size:18px; font-family:"微软雅黑"; letter-spacing:1px; border:1px solid #219718; box-shadow: inset 0 1px 1px #57ca4e; color: #fff; border-radius:22px;}
+.zn_link_area{height:18px; margin-top:16px;}
+.zn_link_area .link_forget{display:block; float:right; text-decoration:none; color:#999; font-size:14px;}
+.reg_acnum{width:100%; height:44px; line-height:44px; margin-top:20px; text-decoration:none; font-size:16px; display:block; border:1px solid #d3d3d3; color:#737373; text-align:center; border-radius:22px;}
+/*login*/
+
+
+/*register*/
+.zn_reg_title{font-size:18px;}
+.zn_reg_accnum{width:100%; padding-bottom:15px;}
+.zn_reg_accnum input{width:100%; height:40px; box-sizing:border-box; border-radius:10px; outline:none; -webkit-appearance:none; -moz-appearance:none; appearance: none; text-indent:10px; border:1px solid #d3d3d3;}
+.zn_reg_btn{width:100%; padding-top:15px;}
+.zn_reg_btn input{width:100%; height:44px; margin-top:20px; background:#3ec234; outline:none; cursor:pointer; font-size:18px; font-family:"微软雅黑"; letter-spacing:1px; border:1px solid #219718; box-shadow: inset 0 1px 1px #57ca4e; color: #fff; border-radius:22px;}
+/*register*/

@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+	<title>新增收货地址</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content=""> <!-- seo网站关键字 -->
+	<meta name="description" content=""> <!-- seo对网站的文字描述 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<!-- IE使用最新渲染模式，chrome框架使用webkit内核 -->
+	<meta name='renderer' content="webkit">
+	<!-- 让360浏览器使用webkit内核 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!-- 让屏幕1：1缩放，并且在移动设备上禁止放大缩小 -->
+
+	<!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+	<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/framework7.ios.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+   	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cityselect.js"></script>
+    <script type="text/javascript">
+        $(function(){           
+            $("#city").citySelect({
+                prov:"请选择", 
+                city:"请选择",
+                dist:"请选择",
+                nodata:"none"
+            }); 
+        });
+    </script>
+</head>
+<body class="head_body">
+    <div class="header">
+        <div class="header-inner">
+            <div class='left-link'><a href="#"><i>&#xe611;</i></a></div>
+            <div class='header-title'>新增收货地址</div>
+            <div class='right-link'><a href="#">完成</a></div>
+        </div>
+    </div>
+
+    <div class='container-fluid'>
+        <div class="row">
+            <div class="common-form-group common-margin">
+                <div class="common-form-list">
+                    <label>收货人</label>
+                    <div class="text-box">
+                        <input type="text" class="common-input" placeholder="请填写收货人" />
+                    </div>
+                </div>
+                <div class="common-form-list">
+                    <label>联系方式</label>
+                    <div class="text-box">
+                        <input type="text" class="common-input" placeholder="请填写联系方式" />
+                    </div>
+                </div>
+                <div class="common-form-list">
+                    <label>所在地区</label>
+                    <div class="text-box" id="city">
+                        <select class="prov"></select> 
+                        <select class="city" disabled="disabled"></select>
+                        <select class="dist" disabled="disabled"></select>
+                    </div>
+                </div>
+                <div class="common-form-list">
+                    <label>详细地址</label>
+                    <div class="text-box">
+                        <input type="text" class="common-input" placeholder="请填写详细地址" />
+                    </div>
+                </div>
+                <div class="common-form-list">
+                    <label>邮政编码</label>
+                    <div class="text-box">
+                        <input type="text" class="common-input" placeholder="请填写邮政编码" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>         

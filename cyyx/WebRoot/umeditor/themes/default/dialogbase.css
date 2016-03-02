@@ -1,0 +1,179 @@
+/*寮瑰嚭瀵硅瘽妗嗛〉闈㈡牱寮忕粍浠�
+*/
+
+/*reset
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*module
+*/
+body {
+    background-color: #fff;
+    font: 12px/1.5 sans-serif, "瀹嬩綋", "Arial Narrow", HELVETICA;
+    color: #646464;
+}
+
+/*tab*/
+.tabhead {
+    position: relative;
+    z-index: 10;
+}
+
+.tabhead span {
+    display: inline-block;
+    padding: 0 5px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background: url("images/dialog-title-bg.png") repeat-x;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    *margin-right: 5px;
+}
+
+.tabhead span.focus {
+    height: 31px;
+    border-bottom: none;
+    background: #fff;
+}
+
+.tabbody {
+    position: relative;
+    top: -1px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+/*button*/
+a.button {
+    display: block;
+    text-align: center;
+    line-height: 24px;
+    text-decoration: none;
+    height: 24px;
+    width: 95px;
+    border: 0;
+    color: #838383;
+    background: url(../../themes/default/images/icons-all.gif) no-repeat;
+}
+
+a.button:hover {
+    background-position: 0 -30px;
+}
+.fhdd-set{
+	top:10px;
+}
+.fhdd-set label{
+	display:inline-block;
+	margin-right:15px;
+}
+.fhdd-set label input{
+	position:relative !important;
+	opacity:1 !important;
+	marign:0 !important;
+	top:-4px;
+}
+
+.provinces-box{
+	display:inline-block;
+	position:relative;
+	margin-bottom:3px;
+}
+.icon-radio{
+	width:20px;
+	height:20px;
+	margin-right:5px;
+	float:left;
+	background-repeat: no-repeat;
+	background-position:0 0px;
+	background-size:20px 20px;
+}
+.icon-radio.icon-radio-empty{
+	background-image: url(images/xuanzhong1.png);
+}
+.icon-radio.icon-radio-half{
+	background-image: url(images/xuanzhong2.png);
+}
+.icon-radio.icon-radio-full{
+	background-image: url(images/xuanzhong3.png);
+}
+.provinces-box input{
+	margin:0 !important;
+	opacity:0 !important;
+	position:absolute;
+	top:0;
+	left:0;
+	
+}
+.provinces input+a+span{
+	margin-right:10px;
+}
+
+.provinces .city_1{
+	background-image: url(images/xuanzhong1.png);
+	background-repeat: no-repeat;
+	background-position:0 0;
+}
+
+.citys label{
+	border:1px solid #ddd;
+	margin-right:5px;
+	margin-top:5px;
+	display:inline-block;
+	padding:0 4px;
+	position:relative;
+	overflow:hidden;
+}
+.citys label input{
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0 !important;
+	width:100%;
+	height:100%;
+	opacity:0 !important;
+	
+}
+.citys label input:checked+span{
+	color:red;
+}
+
+

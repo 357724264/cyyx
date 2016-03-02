@@ -1,0 +1,29 @@
+.navbar {
+	height: 1.01rem;
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#CF1414),
+		to(#811E14) );
+	border-bottom: 1px solid #811E14;
+	position: relative
+}
+
+.navbar .nav-dropdown {
+	position: absolute;
+	right: .04rem;
+	top: 1.06rem;
+	width: 2rem;
+	background: #CF1414;
+	opacity: .9;
+	z-index: 100;
+	display: none
+}
+
+.nav-dropdown.active {
+	display: block
+}
+.nav-dropdown li {
+	height: .83rem;
+	line-height: .83rem;
+	border-bottom: 1px solid #811E14;
+	text-align: center
+}
